@@ -34,7 +34,10 @@ public class homeScreen extends AppCompatActivity {
                     return true;
                 case R.id.navigation_leaderboard:
                     mTextMessage.setText("Leaderboard");
+                    navigation.getMenu().getItem(3).setChecked(true);
+                    startActivity(new Intent(homeScreen.this, leaderboardScreen.class));
                     return true;
+
             }
             return false;
         }
