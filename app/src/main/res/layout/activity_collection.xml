@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".collection">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/circleline"
+                android:text="Racing history1 \n\n Start Point: Glasgow \n\n Destination: Edinburgh \n\n Timie: 2 hours" />
+
+            <TextView
+                android:background="@drawable/circleline"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:text="Racing history2 \n\n Start Point: Glasgow \n\n Destination: Edinburgh \n\n Timie: 2 hours"/>
+
+            <TextView
+                android:background="@drawable/circleline"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:text="Racing history3 \n\n Start Point: Glasgow \n\n Destination: Edinburgh \n\n Timie: 2 hours" />
+
+            <TextView
+                android:background="@drawable/circleline"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:text="Racing history4 \n\n Start Point: Glasgow \n\n Destination: Edinburgh \n\n Timie: 2 hours" />
+
+            <TextView
+                android:background="@drawable/circleline"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:text="Racing history5 \n\n Start Point: Glasgow \n\n Destination: Edinburgh \n\n Timie: 2 hours" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

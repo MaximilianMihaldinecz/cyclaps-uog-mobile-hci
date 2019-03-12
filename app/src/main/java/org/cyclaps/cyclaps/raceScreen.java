@@ -59,10 +59,10 @@ public class raceScreen extends AppCompatActivity {
                     startActivity(new Intent(raceScreen.this, raceScreen.class));
                     return true;
                 case R.id.navigation_hunt:
-                   // mTextMessage.setText("Hunt");
+                    // mTextMessage.setText("Hunt");
                     return true;
                 case R.id.navigation_leaderboard:
-                   // mTextMessage.setText("Leaderboard");
+                    // mTextMessage.setText("Leaderboard");
                     bottomNavigationView.getMenu().getItem(3).setChecked(true);
                     startActivity(new Intent(raceScreen.this, leaderboardScreen.class));
                     return true;
